@@ -1,0 +1,71 @@
+body {
+  background-color: lightBlue;
+}
+
+.rules {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Caveat', cursive;
+}
+
+.box{
+  background-color: white;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.container {
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.letter {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 8rem;
+  margin-top: 12.5%;
+}
+
+.correct-position {
+  background-color: green;
+}
+
+.in-word {
+  background-color: yellow;
+}
+
+.game-buttons {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.retry, .give-up {
+  background-color: green;
+  width: 200px;
+  height: 60px;
+  margin: 100px auto;
+  display: inline-block;
+  font-size: 2rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.retry {
+  margin-left: 50px;
+}
+
+.give-up {
+  margin-right: 50px;
+  background-color: red;
+}
+
+.correct-word {
+  margin-top: 75px;
+  text-align: center;
+}
